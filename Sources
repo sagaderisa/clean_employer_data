@@ -1,0 +1,11 @@
+# List of APIs and other Sources
+
+# Directories: 
+# Business Profiles API (may cost money? includes name, business registrations, corporate filings, etc.): http://www.programmableweb.com/api/business-profiles
+# US Yellow Pages API (includes establishment name(s), location(s), phone(s): http://www.programmableweb.com/api/us-yellow-pages
+# Google Maps Places API (includes name, address, coordinates?): https://developers.google.com/places/
+# Sunlight Foundation bulk data - useful searches include federal contracting, federal grants, and contributions (includes parent/subsidiary info as well as various unique IDs: http://sunlightlabs.github.io/datacommons/bulk_data.html
+
+# Government sites:
+# OSHA Compliance Dataset: http://developer.dol.gov/dataset/osha-compliance-dataset
+# Wage and Hour/FLSA compliance: http://developer.dol.gov/dataset/dol-whd-compliance-dataset

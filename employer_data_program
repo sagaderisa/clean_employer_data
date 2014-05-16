@@ -1,3 +1,14 @@
+# My plan is to create a starting JSON database with bulk data, and then set up API queries that will check for
+# updates/missing data. The database will likely consist of lists nested in dictionaries. 
+# Notes: 1) for addresses, especially those pulled from government data, I'll want to include the first and last
+# dates when those records were available.
+
+# Here are the libraries I'm importing
+import requests
+import urllib
+
+# Here are my functions.
+
 def csv_to_dict(csv_file, k):
 	"Takes a csv file (csv_file) and unique identifier (k) and returns a dictionary version of the file where the main keys are k"
 	lines = csv_file.read().split("\n")

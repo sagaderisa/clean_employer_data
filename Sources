@@ -8,6 +8,7 @@
 # D&B API documentation (I'm guessing Corporate Linkage? Business registrations?) http://developer.dnb.com/docs/2.0/common/sandbox
 # Not clear what the "sandbox" is - looks like there are specific test queries you can use to configure your API calls?
 # D&B Sandbox limits are no more than 5 queries per second (QPS) and no more than 5000 queries per week
+# Capital IQ has an API: https://www.capitaliq.com/home/what-we-offer/how-you-can-get-it/web-services.aspx
 
 # Government sites:
 # OSHA Compliance Dataset: http://developer.dol.gov/dataset/osha-compliance-dataset

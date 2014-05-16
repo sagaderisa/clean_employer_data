@@ -4,7 +4,7 @@
 # Business Profiles API (may cost money? includes name, business registrations, corporate filings, etc.): http://www.programmableweb.com/api/business-profiles
 # US Yellow Pages API (includes establishment name(s), location(s), phone(s): http://www.programmableweb.com/api/us-yellow-pages
 # Google Maps Places API (includes name, address, coordinates?): https://developers.google.com/places/
-# Sunlight Foundation bulk data - useful searches include federal contracting, federal grants, and contributions (includes parent/subsidiary info as well as various unique IDs: http://sunlightlabs.github.io/datacommons/bulk_data.html
+# Sunlight Foundation bulk data - same as USASpending.gov etc. Useful searches include federal contracting, federal grants (includes parent/subsidiary info as well as various unique IDs: http://sunlightlabs.github.io/datacommons/bulk_data.html
 # D&B API documentation (I'm guessing Corporate Linkage? Business registrations?) http://developer.dnb.com/docs/2.0/common/sandbox
 # Not clear what the "sandbox" is - looks like there are specific test queries you can use to configure your API calls?
 # D&B Sandbox limits are no more than 5 queries per second (QPS) and no more than 5000 queries per week
@@ -12,3 +12,7 @@
 # Government sites:
 # OSHA Compliance Dataset: http://developer.dol.gov/dataset/osha-compliance-dataset
 # Wage and Hour/FLSA compliance: http://developer.dol.gov/dataset/dol-whd-compliance-dataset
+# USASpending.gov
+
+# USASpending.gov Bulk Data Fields to use: DUNSNumber, ParentDUNSNumber, ParentRecipientOrCompanyName, PrincipalNAICSCode
+# RecipientAddressLine123, RecipientCity, RecipientName, RecipientOrContractorName, RecipientState, RecipientZipCode

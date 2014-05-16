@@ -1,8 +1,13 @@
+# Pending questions: what should main record type be? (i.e. branch location, company, etc.?) 
+# Should I do a search/follow-up search? (i.e. search for company name, then from results select ones you want and what to search?)
+# How should I deal with [address] requests for huge companies?  (i.e. McDonald's)
+# How do I handle download options?
+
 # List of APIs and other Sources
 
 # Directories: 
 # Business Profiles API (may cost money? includes name, business registrations, corporate filings, etc.): http://www.programmableweb.com/api/business-profiles
-# US Yellow Pages API (includes establishment name(s), location(s), phone(s): http://www.programmableweb.com/api/us-yellow-pages
+# US Yellow Pages API (includes establishment name(s), location(s), phone(s): http://resourcecenter.yp.com/developer/apis/listings/methods/v1/search
 # Google Maps Places API (includes name, address, coordinates?): https://developers.google.com/places/
 # Sunlight Foundation bulk data - same as USASpending.gov etc. Useful searches include federal contracting, federal grants (includes parent/subsidiary info as well as various unique IDs: http://sunlightlabs.github.io/datacommons/bulk_data.html
 # D&B API documentation (I'm guessing Corporate Linkage? Business registrations?) http://developer.dnb.com/docs/2.0/common/sandbox
@@ -17,3 +22,5 @@
 
 # USASpending.gov Bulk Data Fields to use: DUNSNumber, ParentDUNSNumber, ParentRecipientOrCompanyName, PrincipalNAICSCode
 # RecipientAddressLine123, RecipientCity, RecipientName, RecipientOrContractorName, RecipientState, RecipientZipCode
+# Yellow Pages API Fields to Use: additionalText, businessName, categories, city, email, hasDisplayAddress (Boolean),
+# latitude, listingId, longitude, phone, services, state, street, websiteURL, zip
